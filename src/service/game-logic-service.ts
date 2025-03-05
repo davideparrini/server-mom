@@ -183,7 +183,7 @@ const calculateGold = (finalReport: SignedFinalReport[]): ResolvedFinalReport[] 
   const newReport = {
     username: r.username,
     position: 1,
-    gold: r.report.gold,
+    gold: 0,
     report: r.report
   };
   const renownedAccessories = r.report.renownedAccessories;
